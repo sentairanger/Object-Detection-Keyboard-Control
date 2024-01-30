@@ -51,3 +51,7 @@ Here are the steps you need to take to run the robot:
 * `--model`: This chooses which model to run
 * `--prototxt`: This chooses which prototxt to use
 * Once it runs you can type WASD to see the robot move and you can see what objects are being detected by the robot.
+
+### 2024 Update
+
+This project like my Object Detection Robot application will work with 32 bit Pi OS Bullseye thanks to this [issue](https://github.com/openvinotoolkit/openvino/issues/8789). However this project will cease to work after 2024 due to Intel dropping support for the NCS2.
