@@ -54,4 +54,4 @@ Here are the steps you need to take to run the robot:
 
 ### 2024 Update
 
-This project like my Object Detection Robot application will work with 32 bit Pi OS Bullseye thanks to this [issue](https://github.com/openvinotoolkit/openvino/issues/8789). However this project will cease to work after 2024 due to Intel dropping support for the NCS2.
+This project like my Object Detection Robot application will work with 32 bit Pi OS Bullseye thanks to this [issue](https://github.com/openvinotoolkit/openvino/issues/8789). However this project will cease to work after 2024 due to Intel dropping support for the NCS2. Also, be sure to enable Legacy Camera mode on Raspberry Pi OS by typing `sudo raspi-config` and then go into `Interfaces` and finally enable Legacy Camera mode. This mode will be depreciated in the future.
